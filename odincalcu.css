@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.btn{
+  height: 75px;
+  width: 75px;
+  margin: 5px;
+  font-size: 40px;
+}
+.btn.number{
+  border: 1px solid greenyellow;
+}
+.btn.operator{
+  border: 1px solid purple;
+}
+.btn.clear{
+  border: 1px solid pink;
+}
+.btn.number:hover{
+  background-color: rgb(143, 200, 164)
+}
+.btn.operator:hover{
+  background-color: rgb(143, 200, 164)
+}
+.btn.clear:hover{
+  background-color: rgb(143, 200, 164)
+}
+.first-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.screen{
+  width: 265px;
+  border: 1px solid rgb(160, 160, 137);
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.previous{
+  font-size: 20px;
+}
+.current{
+  font-size: 30px;
+}
