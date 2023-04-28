@@ -13,13 +13,19 @@ body{
   font-size: 40px;
 }
 .btn.number{
-  border: 1px solid greenyellow;
+  border: 2px solid greenyellow;
 }
 .btn.operator{
-  border: 1px solid purple;
+  border: 1px solid rgb(243, 115, 11);
 }
 .btn.clear{
-  border: 1px solid pink;
+  border: 2px solid rgb(213, 67, 196);
+}
+.btn.decimal{
+  border: 1px solid rgb(116, 116, 178);
+}
+.btn.equal{
+  border: 1px solid rgb(116, 116, 178);
 }
 .btn.number:hover{
   background-color: rgb(143, 200, 164)
